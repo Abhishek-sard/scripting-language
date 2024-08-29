@@ -23,4 +23,20 @@ let donkey = ["amit", "shah", "niles"];
 for(i;i<=donkey.length;i++){
     console.log(donkey[i]);
 }
-
+//function without argument and without return type
+// function add(){
+//     let a = 23;
+//     let b = 34;
+//     let return = a + b;
+//     console.log(return);
+// }
+//function with argument and without return type
+function add (x,y){
+    let result = x + y;
+    console.log(result);
+}
+add(10,20);
+//function without argument and with return type
+function add(){
+    
+}
