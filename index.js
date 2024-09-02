@@ -47,5 +47,34 @@
 // console.log(add());
 //find odd even by using function
 //date display
-let date = new Date();
-console.log(date.getTime());
+// let date = new Date();
+// console.log(date.getTime());
+// //form validation
+
+function validationForm(){
+    let name = document.getElementById("name").value
+    let email = document.getElementById("email").value
+    let password = document.getElementById("password").value
+    let confirmPassword = document.getElementById("confirmPassword").value
+    if(name.length<3){
+        alert("name should be more than 3")
+    }
+    else{
+        alert("try again");
+    }
+
+    //for email
+    if(email.indexOf('@') == -1){
+        alert("invalid email")
+    }
+    else{
+        alert("valid email")
+    }
+    //for password
+    if(address.length<8){
+        alert("password should be more than 8")
+        }
+        else{
+            alert("password is valid")
+        }
+}
